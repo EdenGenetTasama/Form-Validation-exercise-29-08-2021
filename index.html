@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #formId{
+            display: flex;
+            flex-flow: column; 
+            width: 50vw;
+        }
+    </style>
+</head>
+<body>
+    
+    <form id="formId" >
+        <label type="">שם פרטי</label>
+        <input type="text" value="" id="inputId" required>
+        
+        <label type="">שם משפחה</label>
+        <input type="text" value="" id="lastNameInput" required>
+        
+        <label type="" id="ageLable">גיל</label>
+        <input type="number" value="" id="ageInput" required>
+        
+        <label type="" id="passwordLable">סיסמא</label>
+        <input type="password" value="" id="passwordInput" required>
+        
+        <label type="" id="passwordLable2">אימות סיסמא</label>
+        <input type="password" value="" id="password2Input" required>
+        <p id='megOfError'></p>
+        <button type="submit" id="buttonId">שליחה</button>
+
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+</html>
